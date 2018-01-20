@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Little Bees</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="evaluasi_sholat">Evaluasi Sholat</string>
+
+    <string name="tab_magrib">Magrib</string>
+    <string name="tab_isya">Isya</string>
+    <string name="tab_subuh">Subuh</string>
+    <string name="tab_zuhur">Zuhur</string>
+    <string name="tab_ashar">Ashar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="spinner_sholat_items">
+        <item>Pilih sholat...</item>
+        <item>Magrib</item>
+        <item>Isya</item>
+        <item>Subuh</item>
+        <item>Zuhur</item>
+        <item>Ashar</item>
+    </string-array>
+    <string name="title_activity_test">test</string>
+</resources>

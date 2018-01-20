@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <tabs>
+        <tab
+            id="@+id/tab_beranda"
+            icon="@drawable/ic_home_white_24dp"
+            title="Beranda"
+            titleSize="4dp"
+            color="@color/colorPrimary" />
+        <tab
+            id="@+id/tab_aktifitas"
+            icon="@drawable/ic_assignment_turned_in_white_24dp"
+            title="Aktifitas"
+            titleSize="4dp"
+            color="@color/colorPrimary"/>
+
+        <tab
+            id="@+id/tab_grafik"
+            icon="@drawable/ic_insert_chart_white_24dp"
+            title="Grafik"
+            titleSize="4dp"
+            color="@color/colorPrimary"/>
+
+        <tab
+            id="@+id/tab_profil"
+            icon="@drawable/ic_account_box_white_24dp"
+            title="Profil"
+            titleSize="4dp"
+            color="@color/colorPrimary" />
+
+    </tabs>
+
+</PreferenceScreen>

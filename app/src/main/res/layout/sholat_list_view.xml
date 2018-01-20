@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_marginTop="5dp"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:background="@drawable/sangatbaik"/>
+        <TextView
+            android:id="@+id/status"
+            android:text="Dikerjakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/thumbnail"/>
+        <TextView
+            android:id="@+id/tempat"
+            android:text="Masjid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/status"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/thumbnail"/>
+        <TextView
+            android:id="@+id/pukul"
+            android:text="18.20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:layout_toRightOf="@+id/status"/>
+
+        <TextView
+            android:id="@+id/tanggal"
+            android:text="1 Januari 2018"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:layout_below="@+id/pukul"
+            android:layout_toRightOf="@+id/tempat"/>
+    </RelativeLayout>
+
+</FrameLayout>

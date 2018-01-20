@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.littlebees.andar.littlebees">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MateriSholatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EvaluasiSholatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DataSholat"
+            android:parentActivityName=".EvaluasiSholatActivity" />
+        <activity android:name=".QuranActivity" />
+        <activity android:name=".HavalanDoaActivity" />
+        <activity android:name=".HafalanDoaActivity" />
+        <activity android:name=".MateriSholat.Berdiri" />
+        <activity android:name=".MateriSholat.Takbir" />
+        <activity android:name=".MateriSholat.Bacaan" />
+        <activity android:name=".MateriSholat.Ifititah" />
+        <activity android:name=".MateriSholat.bacaaan" />
+        <activity android:name=".MateriSholat.rukuk" />
+        <activity android:name=".MateriSholat.Itidal" />
+        <activity android:name=".MateriSholat.Sujud" />
+        <activity android:name=".MateriSholat.Antara2Sujud" />
+        <activity android:name=".MateriSholat.TasyahudAwal" />
+        <activity android:name=".MateriSholat.TasyahudAkhir" />
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
